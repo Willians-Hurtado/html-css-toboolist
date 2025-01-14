@@ -16,12 +16,36 @@
 .imglogo{
     padding-left: 1rem;
 }
+
 .tob{
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;   
     position: absolute;
-    top: -1.5rem;
-   
-    
+    top: -1.5rem;   
+}
+
+.mainlist{
+    background-color: #f6f8f9 ;
+    display: inline-block;
+}
+.to-do{
+    padding-left: 47px;
+    margin-left: 166px;
+    padding-top: 11px;   
+    margin-top: 41px;
+    background-color: white;
+} 
+
+.blue{
+    background-color: var(--tob-bluebutton);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.gray{
+    border-color: #eef0f1;
+    color: #eef0f1;
+    background-color: white;
 }
