@@ -30,12 +30,22 @@
     height: 100rem;
 }
 
+.to{
+    width: 70%;
+    margin: auto;
+    padding-left: 5% ;
+    background-color: white;
+    padding-top: 1.2%;
+    padding-bottom: 0.8%;
+    position: relative;
+    top: 2.9rem;
+}
 .to-do{
     padding-left: 5% ;
     background-color: white;
     width: 70%;
     margin: auto;
-    padding-top: 2.5%;
+    padding-top: 0.2%;
     padding-bottom: 2rem;
     position: relative;
     top: 3rem;
@@ -46,13 +56,19 @@
     background-color: var(--tob-bluebutton);
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 10%;
+    padding: 7px 7px;
+    font-size: 11px;
+    
 }
 
 .gray{
     border-color: #eef0f1;
     color: #eef0f1;
     background-color: white;
+    border-radius: 1%;
+    padding: 7px 7px;
+    font-size: 11px;
 }
 
 h3{
@@ -87,7 +103,7 @@ h3{
 }
 
 .space{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .x{
