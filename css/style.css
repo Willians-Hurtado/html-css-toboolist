@@ -19,7 +19,7 @@
 
 .tob{
     display: inline-block;
-    font-family: 'Source Sans Pro', sans-serif;
+    
     font-size: 40px;   
     position: absolute;
     top: -1.5rem;   
@@ -28,7 +28,9 @@
 .mainlist{
     background-color: #f6f8f9 ;
     display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 .to-do{
     padding-left: 47px;
     margin-left: 166px;
@@ -48,4 +50,84 @@
     border-color: #eef0f1;
     color: #eef0f1;
     background-color: white;
+}
+
+h3{
+    display: inline-block;
+}
+
+.check{
+    border-radius: 100%;
+    background-color: white;
+    color: #93d3c4;
+    font-size: 11px;
+    border: 1px solid #93d3c4;
+    padding: 1px;    
+}
+
+.edit{
+    border-radius: 30%;
+    background-color: var(--tob-bluebutton);
+    color: white;
+    font-size: 10px ;
+    padding: 7px 7px;
+    border: none;
+}
+
+.q1{
+    border-radius: 30%;
+    background-color: var(--toob-violetbutton);
+    color: white;
+    font-size: 10px ;
+    padding: 7px 7px;
+    border: none;
+}
+
+.space{
+    margin-top: 1rem;
+}
+
+.x{
+    border-radius: 100%;
+    background-color: white;
+    color:#f0837e;
+    font-size: 11px;
+    border: 1px solid #f0837e;
+    padding: 1px;    
+} 
+
+.rec{
+    border-radius: 30%;
+    background-color: var(--toob-greenbutton);
+    color: white;
+    font-size: 10px ;
+    padding: 7px 7px;
+    border: none;
+}
+
+.mob{
+    border-radius: 30%;
+    background-color: var(--toob-orangebutton);
+    color: white;
+    font-size: 10px ;
+    padding: 7px 7px;
+    border: none;
+}
+
+.web{
+    border-radius: 30%;
+    background-color: var(--toob-pinkbutton);
+    color: white;
+    font-size: 10px ;
+    padding: 7px 7px;
+    border: none;
+}
+
+.sales{
+    border-radius: 30%;
+    background-color: var(--toob-green2button);
+    color: white;
+    font-size: 10px ;
+    padding: 7px 7px;
+    border: none;
 }
