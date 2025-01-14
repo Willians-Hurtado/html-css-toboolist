@@ -1,0 +1,27 @@
+:root{
+    --tob-bluebutton: #47adf1;
+    --toob-violetbutton: #9c72e4;
+    --toob-greenbutton: #64c0a9;
+    --toob-orangebutton: #f29e33;
+    --toob-pinkbutton: #d863a0;
+    --toob-green2button: #b0c926;
+}
+
+
+.logo{
+    margin: 0px;
+    position: relative;
+}
+
+.imglogo{
+    padding-left: 1rem;
+}
+.tob{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;   
+    position: absolute;
+    top: -1.5rem;
+   
+    
+}
